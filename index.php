@@ -20,3 +20,5 @@ print_r($array);
 echo "</pre>";
 
 ?>
+
+<input type="text" value=" <?php echo $faker->firstNameMale; ?> ">
