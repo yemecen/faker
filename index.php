@@ -21,4 +21,6 @@ echo "</pre>";
 
 ?>
 
-<input type="text" value=" <?php echo $faker->firstNameMale; ?> ">
+Title : <input type="text" value="<?php echo $faker->firstNameMale; ?>"><br>
+Title : <input type="text" value="<?php echo $faker->firstNameMale; ?>"><br>
+Title : <input type="text" value="<?php echo $faker->firstNameMale; ?>">
