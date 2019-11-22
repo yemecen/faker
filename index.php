@@ -10,9 +10,13 @@ $array = [
    "Telefon" => $faker->phoneNumber,
    "Slug" => $faker->slug,
    "MAC Adresi" => $faker->macAddress,
-   "Tarih" => date($format = 'Y-m-d', $max = 'now')
+   "Tarih" => $faker->realText($maxNbChars = 200, $indexSize = 2)
 ];
 
-print_r("<pre>".$array."</pre>");
+echo "<pre>";
+
+print_r($array);
+
+echo "</pre>";
 
 ?>
